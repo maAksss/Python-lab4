@@ -1,0 +1,25 @@
+# Віртуальне оточення
+pechkur/
+venv/
+.venv/
+
+# Кеш Python
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Технічні папки IDE
+.vscode/
+.idea/
+
+# Тимчасові файли та звіти
+lang_list.txt
+lang_list_mod2.txt
+lang_list_mod3.txt
+B-12_ja.txt
+languages_list.txt
+
+# Логи та системні файли
+*.log
+.DS_Store
+Thumbs.db
