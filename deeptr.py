@@ -5,7 +5,7 @@ def demo_deep_translator():
     print(f"{'ДЕМОНСТРАЦІЯ МОДУЛЯ 3 (deep_translator + langdetect)':^60}")
     print("="*60)
 
-    # 1. Тест перекладу (Пункт 4: TransLate)
+    # 1. Тест перекладу 
     original_text = "Джобс є найвищим зразком винахідливості."
     target_lang = "ja"
     
@@ -14,7 +14,7 @@ def demo_deep_translator():
     print(f"Оригінал: {original_text}")
     print(f"Переклад ({target_lang}): {translated}")
 
-    # 2. Тест визначення мови (Пункт 4: LangDetect)
+    # 2. Тест визначення мови 
     print(f"\n[2] Тест LangDetect:")
     print(f"Повна інформація: {module3.LangDetect(original_text, set='all')}")
 
@@ -23,7 +23,7 @@ def demo_deep_translator():
     print(f"Код для 'japanese'  -> {module3.CodeLang('japanese')}")
     print(f"Назва для 'uk'      -> {module3.CodeLang('uk')}")
 
-    # 4. Тест списку мов у ТЕРМІНАЛ (Пункт 4: LanguageList)
+    # 4. Тест списку мов у ТЕРМІНАЛ
     print(f"\n[4] Тест LanguageList (вивід на екран):")
     # Викликаємо функцію з параметром out="screen"
     # Для демонстрації передаємо текст "Добрий день"
